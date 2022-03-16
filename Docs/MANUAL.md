@@ -406,6 +406,25 @@ After you create your SSKR shares, you have to export them, to make them availab
 
 *Individually or Jointly?* The most secure way to export your SSKR shares is to do so individually, preferably by saving them to different MicroSD cards or to different NFC Tags. The saves to MicroSD card  can be done "Using Share Sheets", while saves to NFC Tags are available from the "NFC Tag" selector. Saving shares individually ensures that your shares are never in the same place once they leave **Gordian Seed Tool**, which is the optimal security methodology.
 
+<div align="center">
+  <table border=0>
+    <tr>
+      <td>
+        <a href="../images/st-sskr-ind-1.jpeg"><img src="../images/st-sskr-ind-1.jpeg" width=250></a>
+        <br><div align="center"><b>Individual Export</b></div>
+      </center></td>
+      <td>
+        <a href="../images/st-sskr-ind-2.jpeg"><img src="../images/st-sskr-ind-2.jpeg" width=250></a>
+        <br><div align="center"><b>Individual NFC Export</b></div>
+      </center></td>
+      <td>
+        <a href="../images/st-sskr-ind-3.jpeg"><img src="../images/st-sskr-ind-3.jpeg" width=250></a>
+        <br><div align="center"><b>Individual NFC Write</b></div>
+      </center></td>
+    </tr>
+  </table>
+</div>
+
 *QR, UR, or ByteWords?* You can store the words (whether you're exporting them individually or jointly) using QR codes, URs, or Bytewords. We suggest QR codes as a first choice because they're very easy to scan back into compatible seed stores. URs are a second choice, but are still good because they're self-describing and self-verifying. Bare ByteWords may seem the most resilient, because they're words you can see, but they don't have the usability or resilience advantages of QRs or URs.
 
 *To Print or Not to Print?* Printing is the most convenient export methodology. You can either print everything on one sheet (and cut apart individual "coupons") or use the default option to print a cover sheet and then individual sheets for each share. You'll also have the option to print any notes about the seed itself. Individual sheets are chosen as the default because that allows you to keep the cover sheet to track where all the shares are, and to give out the shares  on full-sized sheets of paper, which are much less likely to get lost. The deficit of printing is that your shares could be compromised if your local network is compromised. We would suggest that you _never_ print sufficient shares to allow the theft of your digital assets. If you're just printing shares for one key in a multisig, no problem, but if you have shares for a single-key account, or if you want to backup multiple keys for a multisig, use another method such as the individual saves to MicroSD cards.
